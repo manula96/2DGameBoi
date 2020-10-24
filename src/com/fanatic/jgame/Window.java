@@ -9,7 +9,7 @@ public class Window extends JFrame {
         setTitle("Game Boi");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        setContentPane(new GamePanel(1280,720));
+        setContentPane(new GamePanel(1280,722));
         pack();
         setLocationRelativeTo(null);
         setVisible(true);
